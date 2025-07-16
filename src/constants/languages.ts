@@ -1,0 +1,50 @@
+import { Language } from "../types";
+
+export const SUPPORTED_LANGUAGES: Language[] = [
+  { code: "en", name: "English", flag: "🇺🇸", nativeName: "English" },
+  { code: "hi", name: "Hindi", flag: "🇮🇳", nativeName: "हिंदी" },
+  { code: "sa", name: "Sanskrit", flag: "🇮🇳", nativeName: "संस्कृत" },
+  { code: "te", name: "Telugu", flag: "🇮🇳", nativeName: "తెలుగు" },
+  { code: "pa", name: "Punjabi", flag: "🇮🇳", nativeName: "ਪੰਜਾਬੀ" },
+  { code: "kn", name: "Kannada", flag: "🇮🇳", nativeName: "ಕನ್ನಡ" },
+  { code: "bn", name: "Bengali", flag: "🇧🇩", nativeName: "বাংলা" },
+  { code: "ur", name: "Urdu", flag: "🇵🇰", nativeName: "اردو" },
+  { code: "es", name: "Spanish", flag: "🇪🇸", nativeName: "Español" },
+  { code: "de", name: "German", flag: "🇩🇪", nativeName: "Deutsch" },
+  { code: "fr", name: "French", flag: "🇫🇷", nativeName: "Français" },
+  { code: "ja", name: "Japanese", flag: "🇯🇵", nativeName: "日本語" },
+  { code: "ko", name: "Korean", flag: "🇰🇷", nativeName: "한국어" },
+];
+
+export const CROP_NAMES: Record<string, Record<string, string>> = {
+  en: {
+    bajra: "Pearl Millet",
+    jowar: "Sorghum",
+    sugarcane: "Sugarcane",
+    arhar: "Pigeon Pea",
+    moong: "Green Gram",
+    paddy: "Rice",
+    ragi: "Finger Millet",
+    urad: "Black Gram",
+    masoor: "Lentil",
+    maize: "Corn",
+    jute: "Jute",
+    cotton: "Cotton",
+    coconut: "Coconut",
+  },
+  hi: {
+    bajra: "बाजरा",
+    jowar: "ज्वार",
+    sugarcane: "गन्ना",
+    arhar: "अरहर",
+    moong: "मूंग",
+    paddy: "धान",
+    ragi: "रागी",
+    urad: "उड़द",
+    masoor: "मसूर",
+    maize: "मक्का",
+    jute: "जूट",
+    cotton: "कपास",
+    coconut: "नारियल",
+  },
+};
